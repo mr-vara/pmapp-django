@@ -25,7 +25,7 @@ SECRET_KEY = '=@+jwv-umc#t5($^cl!)850h1!1b53o(yn$_6w_x$pzecgd02@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['awaaz-pmapp.heroku.com']
+ALLOWED_HOSTS = ['awaaz-pmapp.herokuapp.com']
 
 
 # Application definition
@@ -58,14 +58,14 @@ DATE_INPUT_FORMATS = ['%m/%d/%Y']
 CORS_ORIGIN_ALLOW_ALL = True
 CORS_ALLOW_CREDENTIALS = True
 CORS_ORIGIN_WHITELIST = [
-    'http://awaaz-pmapp.heroku.com',
-    'https://awaaz-pmapp.heroku.com',
+    'http://awaaz-pmapp.herokuapp.com',
+    'https://awaaz-pmapp.herokuapp.com',
     'http://localhost:8081',
     'http://localhost:8000',
 ]
 CORS_ORIGIN_REGEX_WHITELIST = [
-    'http://awaaz-pmapp.heroku.com',
-    'https://awaaz-pmapp.heroku.com',
+    'http://awaaz-pmapp.herokuapp.com',
+    'https://awaaz-pmapp.herokuapp.com',
     'http://localhost:8081',
     'http://localhost:8000',
 ]
