@@ -1603,7 +1603,7 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 };
 
 
-var baseUrl = 'http://localhost:8000/api/projects';
+var baseUrl = 'https://awaaz-pmapp.herokuapp.com/api/projects';
 var ProjectService = /** @class */ (function () {
     function ProjectService(http) {
         this.http = http;
@@ -1659,7 +1659,7 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 };
 
 
-var baseUrl = 'http://localhost:8000/api/subtasks';
+var baseUrl = 'https://awaaz-pmapp.herokuapp.com/api/subtasks';
 var SubTaskService = /** @class */ (function () {
     function SubTaskService(http) {
         this.http = http;
@@ -1715,7 +1715,7 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 };
 
 
-var baseUrl = 'http://localhost:8000/api/tasks';
+var baseUrl = 'https://awaaz-pmapp.herokuapp.com/api/tasks';
 var TaskService = /** @class */ (function () {
     function TaskService(http) {
         this.http = http;
