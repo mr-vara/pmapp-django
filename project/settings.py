@@ -25,7 +25,7 @@ SECRET_KEY = '=@+jwv-umc#t5($^cl!)850h1!1b53o(yn$_6w_x$pzecgd02@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['awaaz-pmapp.herokuapp.com']
+ALLOWED_HOSTS = ['awaaz-pmapp.herokuapp.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
